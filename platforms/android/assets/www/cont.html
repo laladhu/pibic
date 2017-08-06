@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="img/png/001-blackboard.png" />
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/teste.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/video.css"> 
+  <script src="js/video.js"></script>
+  <title>Conteúdos</title>
+</head>
+<body class="a1">
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">Início</a>
+    <a href="catVid.html">Categorias</a>
+    <a href="temDur.html">Duração</a>
+    <a href="sobre.html">Sobre</a>
+  </div>
+
+  <div class="a7">
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    <h3 class="a13 a19">CONTEÚDOS</h3>
+  </div>
+  <p class="text-center c11">Selecione o conteúdo desejado:</p>
+
+  <div class="c4" onclick="cc('ap')">
+    Análise Combinatória e Probabilidade
+  </div>
+  <div class="c5" onclick="cc('c')">
+    Conjuntos
+  </div>
+  <div class="c4" onclick="cc('e')">
+    Estatística      </div>
+    <div class="c5" onclick="cc('fe')">
+      Função Exponencial
+    </div>
+    <div class="c4" onclick="cc('fl')">
+      Função Logarítmica
+    </div>
+    <div class="c5" onclick="cc('fm')">
+      Função Modular
+    </div>
+    <div class="c4" onclick="cc('fp')">
+      Função Polinomial
+    </div>
+    <div class="c5"  onclick="cc('ft')">
+     Função Trigonométrica
+   </div>
+   <div class="c4" onclick="alert('ga')">
+    Geometria Analítica
+  </div>
+  <div class="c5"  onclick="cc('ge')">
+   Geometria Espacial
+ </div>
+ <div class="c4" onclick="cc('gp')">
+  Geometria Plana
+</div>
+<div class="c5"  onclick="cc('mf')">
+  Matemática Financeira
+</div>
+<div class="c4" onclick="cc('mds')">
+  Matrizes, Determinantes e Sistemas Lineares
+</div>
+<div class="c5"  onclick="cc('npe')">
+  Números Complexos, Polinômios e Equações Polinomiais        
+</div>
+<div class="c4" onclick="cc('p')">
+  Progressões    </div>
+  <div class="c5"  onclick="cc('t')">
+    Trigonometria        
+  </div>
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+  </script>
+  <script src="j_query/jquery.js"></script>
+  <!-- Inclui todos os plugins compilados (abaixo), ou inclua arquivos separadados se necessário -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- jQuery (obrigatório para plugins JavaScript do Bootstrap) -->
+</body>
+
+</html>
+
