@@ -7,10 +7,10 @@
 
   Os objetivos específicos foram:
   
-  *Migrar os dados dos arquivos brutos para um banco de dados relacional;
-  *Realizar análise e validação dos requisitos;
-  *Desenvolver a prototipação do sistema;
-  *Codificar o aplicativo
+  Migrar os dados dos arquivos brutos para um banco de dados relacional;
+  Realizar análise e validação dos requisitos;
+  Desenvolver a prototipação do sistema;
+  Codificar o aplicativo
   
 # Ferramentas
 
